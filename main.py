@@ -65,6 +65,7 @@ def get_user(db, username: str):
     if username in db:
         user_dict = db[username]
         return UserInDB(**user_dict)
+    return None
 
 
 def authenticate_user(fake_db, username: str, password: str):
