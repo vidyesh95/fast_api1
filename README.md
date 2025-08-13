@@ -6,7 +6,7 @@ uv add
 uv remove
 uv lock
 uv sync
-uv run
+uv run fastapi dev
 uv build
 uv lock --upgrade
 uv sync
